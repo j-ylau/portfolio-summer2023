@@ -1,38 +1,216 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background: #03363b !important;
+  color: #fff !important;
+  font-family: 'Almarai', sans-serif !important;
+  align-items: left !important;
+  justify-content: left !important;
+  text-align: left !important;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+  font-size: 4rem;
+  padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+a:hover {
+  background-color: none;
+}
+
+.links {}
+
+#font {
+  font-family: 'Almarai', sans-serif !important;
+}
+
+#font-link {
+  font-family: 'Almarai', sans-serif !important;
+  font-size: 20px !important;
+}
+
+.main {
   display: flex;
-  flex-direction: column;
+  font-family: 'Almarai', sans-serif !important;
+}
+
+/* In your App.css */
+.fullScreenHover {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.noScroll {
+  overflow-x: hidden;
+}
+
+
+.left-small {
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.right-small {
+  position: relative;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+
+.left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: auto;
+}
+
+.right {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: auto;
+}
+
+
+.intro {
+  font-family: 'Almarai', sans-serif !important;
+}
+
+#mobile{
+  overflow-x: hidden;
+}
+
+b {
+  color: #82FECD;
+
+}
+
+/* The css file (style.css) */
+.nav-link {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link.active {
+  color: #3c366b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.nav-link .nav-indicator {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 1px;
+  background-color: #ffffff;
+  transition: all .3s;
+}
+
+.nav-link:hover .nav-indicator,
+.nav-link:focus .nav-indicator {
+  width: 4rem;
+  background-color: #e2e8f0;
+}
+
+.nav-link:hover .nav-text,
+.nav-link:focus .nav-text {
+  color: #e2e8f0;
+}
+
+.nav-text {
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link .nav-indicator {
+    transition: none;
   }
 }
+
+
+.nav-link.active {
+  /* Styles for active nav link go here */
+  color: #e2e8f0;
+}
+
+/* ViewMoreLink.module.css */
+
+.viewMoreLink {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  transition: color .3s;
+}
+
+.viewMoreLink:hover {
+  color: #82FECD;
+}
+
+.viewMoreLink svg {
+  margin-left: 0.25rem;
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.3s;
+}
+
+.viewMoreLink:hover svg {
+  transform: translateX(0.5rem);
+}
+
+.border-b {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color .3s;
+}
+
+.viewMoreLink:hover .border-b,
+.viewMoreLink:focus .border-b {
+  border-bottom-color: #82FECD;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+/* .bg{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 800px;
+  height: 800px;
+	border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+  background: radial-gradient(circle at 50% 50%,rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+  opacity: 0.2;
+} */
