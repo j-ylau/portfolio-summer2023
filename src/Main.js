@@ -10,6 +10,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 // import custom hard coded components
+import SongSuggest from "./SongSuggest";
 import CoupleFriends from "./CoupleFriends";
 import SGC from "./SGC";
 import DigitalTwin from "./DigitalTwin";
@@ -186,6 +187,7 @@ function Main() {
       />
       <Typography id='font-link'>View Full Resume</Typography> */}
                   <Box pt={4} id="code">
+                    <SongSuggest />
                     <CoupleFriends />
                     <SGC />
                     <DigitalTwin />
@@ -363,6 +365,7 @@ function Main() {
       />
       <Typography id='font-link'>View Full Resume</Typography> */}
                   <Box pt={4} id="code">
+                    <SongSuggest />
                     <CoupleFriends />
                     <SGC />
                     <DigitalTwin />
