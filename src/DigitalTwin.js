@@ -68,7 +68,11 @@ function CustomCard() {
               campus, offering immersive insights and exploration{" "}
             </Typography>
             <Box pt={2}>
-              <Stack spacing={2} direction={{ xs: "column", sm: "row" }}>
+              <Stack
+                spacing={2}
+                direction={{ xs: "column", sm: "row" }}
+                style={{ flexWrap: "wrap" }}
+              >
                 {chipsData.map((chip, index) => (
                   <Chip
                     id="font"
@@ -84,6 +88,7 @@ className="chip"
                       width: "min-content",
                       fontSize: "1rem",
                       fontWeight: "bold",
+                      margin: "5px",
                     }}
                   />
                 ))}

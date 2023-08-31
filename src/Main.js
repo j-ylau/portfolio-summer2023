@@ -243,7 +243,7 @@ function Main() {
                   >
                     Justin Lau
                   </Typography>
-                  <Typography fontSize={"1.2rem"} id="font">
+                  <Typography fontSize={"1rem"} id="font">
                     Software Engineer at Boeing
                   </Typography>
                   <Typography fontSize={"1.1rem"} pt={2} id="font">
@@ -332,12 +332,12 @@ function Main() {
                 xs={12}
                 md={6}
                 style={{ paddingTop: "5rem" }}
-                pr={30}
+                pr={10}
                 className="right"
                 id="scrollableSection"
               >
                 <Stack spacing={4} style={{ fontWeight: "200" }} id="about">
-                  <Typography fontSize={"1.2rem"} className="intro" inline>
+                  <Typography fontSize={"1rem"} className="intro" inline>
                     Originally trained as a mechanical engineer, I stumbled upon
                     an unexpected opportunity in my freshman year that sparked
                     my interest in software development. Intrigued by the world
@@ -346,14 +346,14 @@ function Main() {
                     has grown exponentially.
                   </Typography>
 
-                  <Typography fontSize={"1.2rem"} className="intro" inline>
+                  <Typography fontSize={"1rem"} className="intro" inline>
                     As a <b>Software Engineer</b> at Boeing, I am engaged in developing
                     software solutions that drive aerospace innovation. My role
                     involves collaborating with a talented team to create
                     user-centric applications that meet the complex needs of the
                     aerospace industry.
                   </Typography>
-                  <Typography fontSize={"1.2rem"} className="intro" inline>
+                  <Typography fontSize={"1rem"} className="intro" inline>
                     When I'm not immersed in software development, I enjoy
                     pursuing hobbies that fuel my curiosity and creativity.
                     Whether it's tinkering with new gadgets, experimenting with

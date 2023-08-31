@@ -63,7 +63,11 @@ function CustomCard() {
               I'm a product manager for Cal Poly's first ever UX/UI design agency. I manage a few designers, and work with clients. Some of my work is displayed here.
             </Typography>
             <Box pt={2}>
-              <Stack spacing={2} direction={{ xs: "column", sm: "row" }}>
+              <Stack
+                spacing={2}
+                direction={{ xs: "column", sm: "row" }}
+                style={{ flexWrap: "wrap" }}
+              >
                 {chipsData.map((chip, index) => (
                   <Chip
                     id="font"
@@ -79,6 +83,7 @@ className="chip"
                       width: "min-content",
                       fontSize: "1rem",
                       fontWeight: "bold",
+                      margin: "5px",
                     }}
                   />
                 ))}

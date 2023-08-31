@@ -11,7 +11,6 @@ function CustomCard() {
     { label: "Node & REST APIs", color: "info" },
     { label: "Firebase", color: "info" },
 
-
     // Add more chip data objects as needed
   ];
 
@@ -63,14 +62,20 @@ function CustomCard() {
               </Link>
             </Typography>
             <Typography pt={1} id="font">
-            Discover, share, and curate your favorite songs with the Song Recommendations app, designed to create real-time, personalized playlists in social settings or group events.
+              Discover, share, and curate your favorite songs with the Song
+              Recommendations app, designed to create real-time, personalized
+              playlists in social settings or group events.
             </Typography>
             <Box pt={2}>
-              <Stack spacing={2} direction={{ xs: "column", sm: "row" }}>
+              <Stack
+                spacing={2}
+                direction={{ xs: "column", sm: "row" }}
+                style={{ flexWrap: "wrap" }}
+              >
                 {chipsData.map((chip, index) => (
                   <Chip
                     id="font"
-className="chip"
+                    className="chip"
                     key={index}
                     label={chip.label}
                     variant="filled"
@@ -82,6 +87,7 @@ className="chip"
                       width: "min-content",
                       fontSize: "1rem",
                       fontWeight: "bold",
+                      margin: "5px",
                     }}
                   />
                 ))}
