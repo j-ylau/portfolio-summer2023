@@ -14,6 +14,11 @@ import SongSuggest from "./SongSuggest";
 import CoupleFriends from "./CoupleFriends";
 import SGC from "./SGC";
 import DigitalTwin from "./DigitalTwin";
+
+import Educationmodel from "./EducationModel"
+import Bully from "./Bully"
+
+
 import VLABS from "./VLABS";
 import Rentful from "./Rentful";
 import Happyacres from "./Happyacres";
@@ -93,12 +98,19 @@ function Main() {
                         <span className="nav-indicator"></span>
                         <span className="nav-text">About</span>
                       </a>
-                      <a
-                        onClick={() => handleScroll("code")}
+                     <a
+                        onClick={() => handleScroll("applications")}
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
-                        <span className="nav-text">Coding</span>
+                        <span className="nav-text">Applications</span>
+                      </a>
+                      <a
+                        onClick={() => handleScroll("projects")}
+                        className="nav-link"
+                      >
+                        <span className="nav-indicator"></span>
+                        <span className="nav-text">projects</span>
                       </a>
                       <a
                         onClick={() => handleScroll("design")}
@@ -186,7 +198,7 @@ function Main() {
       date="2019"
       />
       <Typography id='font-link'>View Full Resume</Typography> */}
-                  <Box pt={4} id="code">
+                  <Box pt={4} id="applications">
                     <SongSuggest />
                     <CoupleFriends />
                     <SGC />
@@ -194,6 +206,13 @@ function Main() {
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
                     View More Coding Projects
+                  </ViewMoreLink>
+                  <Box pt={4} id="projects">
+                    <Educationmodel/>
+                    <Bully/>
+                  </Box>
+                  <ViewMoreLink href="#link-not-available-yet">
+                    View More Side Projects
                   </ViewMoreLink>
                   <Box pt={4} id="design">
                     <UXSLOFEST />
@@ -263,12 +282,20 @@ function Main() {
                         <span className="nav-indicator"></span>
                         <span className="nav-text">About</span>
                       </a>
+                    
                       <a
-                        onClick={() => handleScroll("code")}
+                        onClick={() => handleScroll("applications")}
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
-                        <span className="nav-text">Coding</span>
+                        <span className="nav-text">Applications</span>
+                      </a>
+                      <a
+                        onClick={() => handleScroll("projects")}
+                        className="nav-link"
+                      >
+                        <span className="nav-indicator"></span>
+                        <span className="nav-text">Projects</span>
                       </a>
                       <a
                         onClick={() => handleScroll("design")}
@@ -364,14 +391,21 @@ function Main() {
       date="2019"
       />
       <Typography id='font-link'>View Full Resume</Typography> */}
-                  <Box pt={4} id="code">
+                  <Box pt={4} id="applications">
                     <SongSuggest />
                     <CoupleFriends />
                     <SGC />
                     <DigitalTwin />
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More Coding Projects
+                    View More App Projects
+                  </ViewMoreLink>
+                  <Box pt={4} id="projects">
+                    <Educationmodel/>
+                    <Bully/>
+                  </Box>
+                  <ViewMoreLink href="#link-not-available-yet">
+                    View More Side Projects
                   </ViewMoreLink>
                   <Box pt={4} id="design">
                     <UXSLOFEST />

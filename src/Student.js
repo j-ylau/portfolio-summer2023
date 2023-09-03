@@ -2,14 +2,16 @@ import React from "react";
 import "./CustomCard.css";
 import "./App.css";
 import { Box, Grid, Typography, Stack, Link, Chip } from "@mui/material";
-import logo from "../src/assets/songsuggest.png";
+import logo from "../src/assets/educationmodel.png";
 
 function CustomCard() {
   const chipsData = [
-    { label: "React/NextJS", color: "info" },
-    { label: "shadcn", color: "info" },
-    { label: "Node & REST APIs", color: "info" },
-    { label: "Firebase", color: "info" },
+    { label: "Python", color: "info" },
+    { label: "Pandas", color: "info" },
+    { label: "NumPy", color: "info" },
+    { label: "scikit-learn", color: "info" },
+    { label: "matplotlib", color: "info" },
+    { label: "Jupyter Notebook", color: "info" },
 
     // Add more chip data objects as needed
   ];
@@ -42,7 +44,7 @@ function CustomCard() {
               fontWeight="700"
             >
               <Link
-                href="https://songsuggest.net/"
+                href="https://github.com/j-ylau/student-performance-model"
                 target="_blank"
                 rel="noopener"
                 id="font"
@@ -58,13 +60,16 @@ function CustomCard() {
                   },
                 }}
               >
-                SongSuggest
+                Educational Performance Predictor
               </Link>
             </Typography>
             <Typography pt={1} id="font">
-              Discover, share, and curate your favorite songs with the Song
-              Recommendations app, designed to create real-time, personalized
-              playlists in social settings or group events.
+              The Educational Performance Predictor is a sophisticated machine
+              learning project that utilizes data preprocessing and a Random
+              Forest Regressor model to predict educational performance based on
+              diverse factors. This repository showcases my expertise in data
+              manipulation, model training, and software design for real-world
+              predictive analytics.
             </Typography>
             <Box pt={2}>
               <Stack
