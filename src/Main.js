@@ -110,14 +110,14 @@ function Main() {
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
-                        <span className="nav-text">projects</span>
+                        <span className="nav-text">AI/ML</span>
                       </a>
                       <a
                         onClick={() => handleScroll("design")}
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
-                        <span className="nav-text">Designing</span>
+                        <span className="nav-text">UI/UX</span>
                       </a>
                       <a
                         onClick={() => handleScroll("pm")}
@@ -205,27 +205,27 @@ function Main() {
                     <DigitalTwin />
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More Coding Projects
+                    View More App Projects
                   </ViewMoreLink>
                   <Box pt={4} id="projects">
                     <Educationmodel/>
                     <Bully/>
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More Side Projects
+                    View More AI/ML Projects
                   </ViewMoreLink>
                   <Box pt={4} id="design">
                     <UXSLOFEST />
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More UX/UI Projects
+                    View More UI/UX Projects
                   </ViewMoreLink>
                   <Box pt={4} id="pm">
                     <Library />
                     <Iter8 />
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More Product Management & Design Projects
+                    View More Product Management Projects
                   </ViewMoreLink>
                   <Box pt={6} id="casestudy">
                     <VLABS />
@@ -295,14 +295,14 @@ function Main() {
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
-                        <span className="nav-text">Projects</span>
+                        <span className="nav-text">AI/ML</span>
                       </a>
                       <a
                         onClick={() => handleScroll("design")}
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
-                        <span className="nav-text">Designing</span>
+                        <span className="nav-text">UI/UX</span>
                       </a>
                       <a
                         onClick={() => handleScroll("pm")}
@@ -405,13 +405,13 @@ function Main() {
                     <Bully/>
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More Side Projects
+                    View More AI/ML Projects
                   </ViewMoreLink>
                   <Box pt={4} id="design">
                     <UXSLOFEST />
                   </Box>
                   <ViewMoreLink href="#link-not-available-yet">
-                    View More UX/UI Projects
+                    View More UI/UX Projects
                   </ViewMoreLink>
                   <Box pt={4} id="pm">
                     <Library />

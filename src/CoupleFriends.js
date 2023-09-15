@@ -10,6 +10,7 @@ function CustomCard() {
     { label: "ChakraUI", color: "info" },
     { label: "HTML/CSS", color: "info" },
     { label: "JSX", color: "info" },
+    { label: "Firebase", color: "info" },
 
     // Add more chip data objects as needed
   ];
