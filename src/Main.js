@@ -84,20 +84,19 @@ function Main() {
                   <Typography fontSize={"1rem"} pt={2} id="font">
                     <b>
                       {" "}
-                      I develop cutting-edge software solutions at Boeing,
-                      contributing to aerospace innovation through robust
+                      I develop cutting-edge software solutions at Boeing through robust
                       development practices and innovative problem-solving.
                     </b>
                   </Typography>
                   <Box pt={4}>
                     <Stack spacing={0}>
-                      <a
+                      {/* <a
                         onClick={() => handleScroll("about")}
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
                         <span className="nav-text">About</span>
-                      </a>
+                      </a> */}
                      <a
                         onClick={() => handleScroll("applications")}
                         className="nav-link"
@@ -268,20 +267,19 @@ function Main() {
                   <Typography fontSize={"1.1rem"} pt={2} id="font">
                     <b>
                       {" "}
-                      I develop cutting-edge software solutions at Boeing,
-                      contributing to aerospace innovation through robust
+                      I develop cutting-edge software solutions at Boeing through robust
                       development practices and innovative problem-solving.
                     </b>
                   </Typography>
                   <Box pt={4}>
                     <Stack spacing={0}>
-                      <a
+                      {/* <a
                         onClick={() => handleScroll("about")}
                         className="nav-link"
                       >
                         <span className="nav-indicator"></span>
                         <span className="nav-text">About</span>
-                      </a>
+                      </a> */}
                     
                       <a
                         onClick={() => handleScroll("applications")}
